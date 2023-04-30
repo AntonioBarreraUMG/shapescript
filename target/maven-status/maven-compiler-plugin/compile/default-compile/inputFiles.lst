@@ -1,0 +1,10 @@
+/home/compiladores/workspace/compilador/src/main/java/com/compiladores/shapescript/compilador/ShapeScriptCustomListener.java
+/home/compiladores/workspace/compilador/target/generated-sources/antlr4/com/compiladores/shapescript/compilador/ShapeScriptParser.java
+/home/compiladores/workspace/compilador/src/main/java/com/compiladores/shapescript/compilador/Compiler.java
+/home/compiladores/workspace/compilador/src/main/java/com/compiladores/shapescript/compilador/ShapeScriptCustomErrorListener.java
+/home/compiladores/workspace/compilador/target/generated-sources/antlr4/com/compiladores/shapescript/compilador/ShapeScriptLexer.java
+/home/compiladores/workspace/compilador/target/generated-sources/antlr4/com/compiladores/shapescript/compilador/ShapeScriptVisitor.java
+/home/compiladores/workspace/compilador/target/generated-sources/antlr4/com/compiladores/shapescript/compilador/ShapeScriptBaseListener.java
+/home/compiladores/workspace/compilador/target/generated-sources/antlr4/com/compiladores/shapescript/compilador/ShapeScriptBaseVisitor.java
+/home/compiladores/workspace/compilador/target/generated-sources/antlr4/com/compiladores/shapescript/compilador/ShapeScriptListener.java
+/home/compiladores/workspace/compilador/src/main/java/com/compiladores/shapescript/compilador/ShapeScriptCustomVisitor.java
