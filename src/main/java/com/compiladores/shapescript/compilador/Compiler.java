@@ -137,16 +137,6 @@ public class Compiler extends JFrame {
     	if (errorListener.hasErrors()) {
 	    	Object[][] tableErrorData = errorListener.getErrorTable();
 	    	tableError.setModel(new DefaultTableModel(tableErrorData, ERROR_TABLE_COLUMNS));
-	    	// Imprime el encabezado de la tabla
-	    	System.out.printf("%-10s %-10s %-50s\n", "Linea", "Columna", "Mensaje");
-	    	for (int i = 0; i < tableErrorData.length; i++) {
-	    	    String line = (String) tableErrorData[i][0];
-	    	    String column = (String) tableErrorData[i][1];
-	    	    String message = (String) tableErrorData[i][2];
-
-	    	    // Imprime los datos de la fila en una tabla con tres columnas
-	    	    System.out.printf("%-10s %-10s %-50s\n", line, column, message);
-	    	}
     	} else {
     		tableError.setModel(EMPTY_ERROR_TABLE_MODEL);
     	}
